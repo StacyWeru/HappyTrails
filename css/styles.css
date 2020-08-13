@@ -1,0 +1,20 @@
+h1{
+    color: blueviolet;
+}
+h3{
+    color: rgba(130, 10, 177, 0.918);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.tropical ul{
+color:  #f7325e;
+text-decoration: underline;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: left;
+font-size: 20px;
+
+}
+.tropical{
+    color:#7dc410 ;
+    font-family: fantasy;
+}
