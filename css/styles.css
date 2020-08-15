@@ -56,9 +56,10 @@ p{
     display: table;
     clear: both;
 }
-@media all and (max-width:600px) and (min-width:300px) {
+@media all and (max-width:60%) and (min-width:30%) {
     .column {
       width: 50%;
+      float: left;
     }
   }
   .container{
