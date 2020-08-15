@@ -1,18 +1,24 @@
+.header{
+    padding: 20px;
+    text-align: center;
+    background-color: #c5d5cb;
+}
 h1{
     color: blueviolet;
-    font-size: 50px;
-    font-family: serif;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h3{
     color: rgba(130, 10, 177, 0.918);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
+    text-align: center;
 }
 #tropical li{
 color:  #f7325e;
 text-decoration: underline;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-align: left;
+text-align: center;
 font-size: 20px;
 list-style-type:square;
 
@@ -20,11 +26,9 @@ list-style-type:square;
 #tropical p{
     color:#7dc410 ;
     font-family: fantasy;
-    text-align: justify;
+    text-align: center;
 }
-img{
-    float: none;
-}
+
 #popular li{
     color:  #eb2424;
 text-decoration: underline;
@@ -36,15 +40,32 @@ font-size: 20px;
 #popular p{
     color:#259104 ;
     font-family: fantasy;
+    text-align: center;
 }
 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: darkgreen;
+    text-align: center;
 }
 .column{
     float: left;
     width: 50%;
-    text-align: left;
-    columns: gap 300px;
-    column-rule: darkred;
 }
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media all and (max-width:600px) and (min-width:300px) {
+    .column {
+      width: 50%;
+    }
+  }
+  .container{
+      padding: 20px;
+      justify-content: center;
+      background-color: #e3e0cf;
+  }
+  img{
+      display: inline-block;
+  }
